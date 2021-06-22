@@ -6,6 +6,7 @@ public class Post {
     private int fromId;
     private int timeOfPost;
     private String textOfPost;
+    private boolean postAttachments;
 
     public boolean isPostAttachments() {
         return postAttachments;
@@ -14,8 +15,6 @@ public class Post {
     public void setPostAttachments(boolean postAttachments) {
         this.postAttachments = postAttachments;
     }
-
-    private boolean postAttachments;
 
     public int getId() {
         return id;
