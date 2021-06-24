@@ -7,6 +7,10 @@ public class Post {
     private int timeOfPost;
     private String textOfPost;
     private boolean postAttachments;
+    private CommentsInfo commentsInfo;
+    private LikesInfo likesInfo;
+    private RepostsInfo repostsInfo;
+    private ViewsInfo viewsInfo;
 
     public boolean isPostAttachments() {
         return postAttachments;

@@ -2,6 +2,7 @@ package ru.netology.domain;
 
 public class LikesInfo {
     private int count;
+    private boolean userLikes;
 
     public int getCount() {
         return count;
@@ -19,6 +20,6 @@ public class LikesInfo {
         this.userLikes = userLikes;
     }
 
-    private boolean userLikes;
+
 
 }
